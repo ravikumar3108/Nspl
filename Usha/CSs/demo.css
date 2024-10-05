@@ -1,0 +1,15 @@
+p{
+    background-color: blue;
+}
+
+/* *{
+    border: 1px solid black;
+} */
+
+h2,h3,h4{
+    color: brown;
+}
+
+.div ul li{
+    color: green;
+}

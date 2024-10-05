@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .div {
+        width: 70%;
+        margin: auto;
+        border: 1px solid;
+        height: 500px;
+        margin-top: 40px;
+        position: relative;
+      }
+
+      .rel {
+        width: 100px;
+        height: 100px;
+        border: 1px solid;
+        background-color: gray;
+        position: relative;
+        top: -40px;
+      }
+      .abs {
+        width: 100px;
+        height: 100px;
+        border: 1px solid;
+        background-color: gray;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .rel1 {
+        width: 100px;
+        height: 100px;
+        border: 1px solid;
+        background-color: gray;
+        position: fixed;
+        top: 100px;
+        left: 100px;
+      }   
+    </style>
+  </head>
+  <body>
+    <!-- 
+    Positions 
+    1. Static 
+    2. Absolute 
+    3. Relative 
+    4. Sticky 
+    5.Fixed 
+
+     -->
+
+    <div class="div">
+      <!-- <div class="rel"></div> -->
+      <div class="rel1"></div>
+      <div class="abs"></div>
+    </div>
+    <div class="div"></div>
+    <div class="div"></div>
+    <div class="div"></div>
+  </body>
+</html>

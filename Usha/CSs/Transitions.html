@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      div {
+        width: 200px;
+        height: 200px;
+        border: 1px solid;
+        background-color: black;
+        transition: all 2s;
+      }
+
+      /*  pseudo class */
+      /* div:hover {
+        background-color: red;
+      } */
+
+      div:hover {
+        transform: scale(0.4, 1.2);
+        transform: rotate(40deg);
+        transform: translate(100px, 200px);
+        transform: skew(50deg);
+        transform: rotate3d(1, 1, 1, 360deg);
+      }
+    </style>
+  </head>
+  <body>
+    <i class="fa-solid fa-house"></i>
+
+    <!-- hover  : on mouse / coursor  -->
+
+    <div></div>
+  </body>
+</html>
