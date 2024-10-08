@@ -4,9 +4,9 @@
 // right side variable value
 
 //  create a variable
-x = 10;
-x = 20;
-console.log(x);
+// x = 10;
+// x = 20;
+// console.log(x);
 
 // Keywords : - let , var ,const
 // 1. Let  a). Let cannot be redeclared.
@@ -34,8 +34,8 @@ y = 30;
 const op = 10;
 // const op =20
 
-op = 20;
-console.log(op);
+// op = 20;
+// console.log(op);
 
 //  variables names  :- 
 // alphabets   let x = 10
@@ -45,4 +45,32 @@ console.log(op);
 // PAscal Case ==   AnilKumar = 20
 //  Case sensitive ==  x , X 
 
-//
+// DAta types : - 
+
+//  Primitive :-  
+// number 
+// string => store character values 
+              // String value store in single and double quotes  " " ,  ' '
+
+// bollean = true and false 
+// null  
+// undefined 
+
+
+// Non-primitive :- 
+// array = array is used to store multiple values 
+// object = object is also used to store multiple values but in pairs of key and values 
+
+
+let x = 10 
+
+let name = "Usha";
+
+let bl = true 
+let b2 = false 
+
+let  un = null;
+console.log(un) 
+
+
+
