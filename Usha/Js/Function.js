@@ -27,7 +27,7 @@ fun1();
 //   if (op == "+") {
 //     console.log("Add is :", num + num2);
 //   } else if (op == "-") {
-//     console.log(num - num2);
+//     console.log(num - num2);    
 //   } else if (op == "*") {
 //     console.log(num * num2);
 //   } else if (op == "/") {
