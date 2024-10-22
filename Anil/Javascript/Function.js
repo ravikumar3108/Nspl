@@ -15,14 +15,14 @@ function fun1() {
 }
 fun1();
 
-function Sum() {
-  let a = 10;
-  let b = 20;
-  let c = a + b;
-  console.log(c);
-}
+// function Sum() {
+//   let a = 10;
+//   let b = 20;
+//   let c = a + b;
+//   console.log(c);
+// }
 
-Sum();
+// Sum();
 
 //  Parameters : which is define into the create function parenthesis
 // arguments :  which is define into the call function parenthesis
@@ -58,12 +58,32 @@ function fun2(num2, op, num) {
 // fun2(a, b, c);
 
 //  default parameters
-// default arguments 
+// default arguments
 
-function Sum1(a, b = 10) {
-  let c = a + b;
+// function Sum1(a, b = 10) {
+//   let c = a + b;
+//   console.log(c);
+// }
+// Sum1((b = 10), (a = 40));
+
+//  default value
+function Sum1(a, b) {
+  let c = a + b + 20;
   console.log(c);
 }
-Sum1(b = 10, a= 40);
+let y = Sum1(10,20);
+console.log(y)
+
+//  return value 
+
+function Sum2(a, b) {
+  let c = a + b;
+  return c ;
+}
+
+let x = Sum2(10,20);
+console.log(x)
 
 
+x += 30
+console.log(x)
