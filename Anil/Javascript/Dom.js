@@ -13,6 +13,7 @@
 document.getElementById("head").innerHTML = "Heloo My name is Anil"
 
 
+
 // by classmname
 document.getElementsByClassName("head")[0].innerHTML = "My age is 22"
 
