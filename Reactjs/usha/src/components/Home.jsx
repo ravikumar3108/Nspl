@@ -1,15 +1,10 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 function Home(){
     return(
         <>
-        <h1>Heloo</h1>
-        <p>jkdsfhj</p>
-        <p>
-            <ul>
-                List
-            </ul>
-        </p>
+        <h1 className="para">Heloo</h1>
         </>
     )
 }
