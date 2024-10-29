@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function Form() {
   return (
@@ -8,7 +8,7 @@ function Form() {
         <input type="text" name="" id="" />
       </form>
     </div>
-  )
+  );
 }
 
-export default Form
+export default Form;
