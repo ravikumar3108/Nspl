@@ -1,5 +1,6 @@
 import React from "react";
 import Homechild from "./Homechild";
+import UseState1 from "./Hoooks/UseState";
 
 function About() {
   
@@ -7,7 +8,7 @@ function About() {
     <>
       <div>
         <h1>About</h1>
-        <Homechild></Homechild>
+        <UseState1/>
       </div>
     </>
   );
