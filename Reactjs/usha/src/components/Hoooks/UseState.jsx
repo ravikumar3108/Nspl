@@ -8,19 +8,17 @@ function UseState1() {
 
   let [data, setData] = useState(0);
 
-  function CounterAdd(){
-    setData(data += 1)
+  function CounterAdd() {
+    setData((data += 1));
   }
-  function CounterSub(){
-    setData(data -= 1)
+  function CounterSub() {
+    setData((data -= 1));
   }
 
   return (
     <div>
       <h1>my number is {data} </h1>
-
-        <h1>My name is .....</h1>
-
+      <h1>My name is .....</h1>
       <button onClick={CounterAdd}>Add</button>
       <button onClick={CounterSub}>Sub</button>
     </div>

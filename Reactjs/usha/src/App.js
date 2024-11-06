@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import "./App.css"
+import Form1 from "./components/Form";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/form" element={<Form1 />} />
         </Routes>
       </BrowserRouter>
     </>
