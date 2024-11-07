@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Form1() {
-  let [formData, setFormData] = useState();
+  let [formData, setFormData] = useState("");
   // console.log("formData", formData);
 
   function handleGetData(e) {
@@ -9,8 +9,6 @@ function Form1() {
     setFormData(e.target.value);
   }
 
-
-  
   //  Data get into a single state
   let [data, setData] = useState();
   console.log(data);
@@ -29,9 +27,15 @@ function Form1() {
   //     rollno:"123"
   //   }
 
+  function handleSubmit(e) {
+    e.preventDefault() // to stop the auto form refresh 
+    let formD = localStorage.setItem("users", JSON.stringify(data));
+  }
+
+  
   return (
     <div>
-      <form action="">
+      <form action="" onSubmit={handleSubmit}>
         <label htmlFor="">Email</label> <br />
         <input type="text" name="email" id="" onChange={getData} /> <br />
         <label htmlFor="">Password</label> <br />
