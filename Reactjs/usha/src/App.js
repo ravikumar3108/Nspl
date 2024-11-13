@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import "./App.css"
 import Form1 from "./components/Form";
 import LoginForm from "./components/LoginForm";
+import Api from "./components/Api";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/form" element={<Form1 />} />
           <Route path="/login" element={<LoginForm />} />
+          <Route path="/api" element={<Api />} />
         </Routes>
       </BrowserRouter>
     </>
